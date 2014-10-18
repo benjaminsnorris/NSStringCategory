@@ -12,6 +12,7 @@
 		E7975EF719F2BA8500857F32 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7975EF619F2BA8500857F32 /* Images.xcassets */; };
 		E7975EFA19F2BA8500857F32 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7975EF819F2BA8500857F32 /* LaunchScreen.xib */; };
 		E7975F0619F2BA8500857F32 /* NSStringCategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7975F0519F2BA8500857F32 /* NSStringCategoryTests.m */; };
+		E7975F1119F2BB2A00857F32 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7975F1019F2BB2A00857F32 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,8 @@
 		E7975EFF19F2BA8500857F32 /* NSStringCategoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSStringCategoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7975F0419F2BA8500857F32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7975F0519F2BA8500857F32 /* NSStringCategoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSStringCategoryTests.m; sourceTree = "<group>"; };
+		E7975F0F19F2BB2A00857F32 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E7975F1019F2BB2A00857F32 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +81,8 @@
 			children = (
 				E7975EF319F2BA8500857F32 /* AppDelegate.h */,
 				E7975EF419F2BA8500857F32 /* AppDelegate.m */,
+				E7975F0F19F2BB2A00857F32 /* ViewController.h */,
+				E7975F1019F2BB2A00857F32 /* ViewController.m */,
 				E7975EF619F2BA8500857F32 /* Images.xcassets */,
 				E7975EF819F2BA8500857F32 /* LaunchScreen.xib */,
 				E7975EEF19F2BA8500857F32 /* Supporting Files */,
@@ -210,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7975F1119F2BB2A00857F32 /* ViewController.m in Sources */,
 				E7975EF519F2BA8500857F32 /* AppDelegate.m in Sources */,
 				E7975EF219F2BA8500857F32 /* main.m in Sources */,
 			);
