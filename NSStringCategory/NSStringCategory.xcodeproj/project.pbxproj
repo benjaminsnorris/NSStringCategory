@@ -14,6 +14,7 @@
 		E7975F0619F2BA8500857F32 /* NSStringCategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7975F0519F2BA8500857F32 /* NSStringCategoryTests.m */; };
 		E7975F1119F2BB2A00857F32 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7975F1019F2BB2A00857F32 /* ViewController.m */; };
 		E7975F1419F2BBD400857F32 /* NSString+ContainsCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = E7975F1319F2BBD400857F32 /* NSString+ContainsCategory.m */; };
+		E7975F1A19F2BE4900857F32 /* UIColor+Gryffindor.m in Sources */ = {isa = PBXBuildFile; fileRef = E7975F1919F2BE4900857F32 /* UIColor+Gryffindor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,8 @@
 		E7975F1019F2BB2A00857F32 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E7975F1219F2BBD400857F32 /* NSString+ContainsCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ContainsCategory.h"; sourceTree = "<group>"; };
 		E7975F1319F2BBD400857F32 /* NSString+ContainsCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ContainsCategory.m"; sourceTree = "<group>"; };
+		E7975F1819F2BE4900857F32 /* UIColor+Gryffindor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Gryffindor.h"; sourceTree = "<group>"; };
+		E7975F1919F2BE4900857F32 /* UIColor+Gryffindor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Gryffindor.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 				E7975F1019F2BB2A00857F32 /* ViewController.m */,
 				E7975F1219F2BBD400857F32 /* NSString+ContainsCategory.h */,
 				E7975F1319F2BBD400857F32 /* NSString+ContainsCategory.m */,
+				E7975F1819F2BE4900857F32 /* UIColor+Gryffindor.h */,
+				E7975F1919F2BE4900857F32 /* UIColor+Gryffindor.m */,
 				E7975EF619F2BA8500857F32 /* Images.xcassets */,
 				E7975EF819F2BA8500857F32 /* LaunchScreen.xib */,
 				E7975EEF19F2BA8500857F32 /* Supporting Files */,
@@ -223,6 +228,7 @@
 				E7975F1119F2BB2A00857F32 /* ViewController.m in Sources */,
 				E7975EF519F2BA8500857F32 /* AppDelegate.m in Sources */,
 				E7975F1419F2BBD400857F32 /* NSString+ContainsCategory.m in Sources */,
+				E7975F1A19F2BE4900857F32 /* UIColor+Gryffindor.m in Sources */,
 				E7975EF219F2BA8500857F32 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
