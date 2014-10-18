@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "NSString+ContainsCategory.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    NSString *testString = @"Hypertension";
+    NSLog(@"Contains 'Hyper': %@",@([testString doesContainString:@"Hyper"]));
+    NSLog(@"Contains 'Hypo': %@",@([testString doesContainString:@"Hypo"]));
 }
 
 - (void)didReceiveMemoryWarning {
